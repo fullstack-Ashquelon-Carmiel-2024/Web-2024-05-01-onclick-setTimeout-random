@@ -13,6 +13,8 @@ $ ls - "list", shows the list of the files
 
 $ clear - clears the terminal
 
+&& - adds commands together
+Arrow Up and Arrow Down - shows the command history
 
 
 
