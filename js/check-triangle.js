@@ -6,13 +6,19 @@ const validationSpan = document.querySelector('#validation');
 const totalValidationSpan = document.querySelector('#total-validation');
 const resultSpan = document.querySelector('#result');
 
-function checkNum(inpNum) {
+const triangle = {
+    a: undefined,
+    b: undefined,
+    c: undefined,
+}
+
+function checkNum(inpNum,inpName) {
     let num = inpNum;
 
     // falsy values: false, undefined, [], null, '', 0
     // isNaN() returns "true" if "num" cannot be converted to a number
     if (num === '' || isNaN(num)) {
-        validationSpan.innerText = `Input A and is not a number`
+        validationSpan.innerText = `Input ${inpName} and is not a number`
     } else {
         // num = parseInt(num) converts it to an integer
         // price = parseFloat('3.99sheq') // price is 3.99 now
@@ -22,15 +28,19 @@ function checkNum(inpNum) {
         
         if (num <= 0) {
 
-            validationSpan.innerText = `Input A and is NOT POSITIVE`
+            validationSpan.innerText = `Input ${inpName} and is NOT POSITIVE`
             
         } else {
             
-            validationSpan.innerText = `Input A and is SABABA`
+            validationSpan.innerText = `Input ${inpName} and is SABABA`
 
         }
 
     }
+
+}
+
+function checkTotal() {
 
 
 
