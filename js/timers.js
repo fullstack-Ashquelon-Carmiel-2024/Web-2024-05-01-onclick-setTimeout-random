@@ -14,6 +14,8 @@ btnShow.addEventListener('click', () => {
         // or
         // Windows + v
 
-    },2000)
+    },3000)
+
+    console.log('The timer is still running ...')
 
 })
