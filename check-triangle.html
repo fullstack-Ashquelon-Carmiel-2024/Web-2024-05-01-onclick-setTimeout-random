@@ -7,11 +7,15 @@
 </head>
 <body>
     <h1>Check Triangle</h1>
+    <!-- this - the input -->
     <input type="text" id="a" placeholder="0" 
-           oninput="checkNum();">
+           oninput="checkNum(this.value);">
 
-    <input type="text" id="b" placeholder="0">
-    <input type="text" id="c" placeholder="0">
+    <input type="text" id="b" placeholder="0"
+            oninput="checkNum(this.value);">
+            
+    <input type="text" id="c" placeholder="0"
+            oninput="checkNum(this.value);">
 
     <h3>
         The current input is
