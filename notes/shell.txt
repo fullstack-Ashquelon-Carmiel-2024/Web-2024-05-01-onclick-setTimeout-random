@@ -38,7 +38,7 @@ _____________________________________-
 upload changes from my local directory to my github
 remote directory
 
-$ git status - check that there were some changes
+$ git status - check that there were some changes - red
 $ git add .
 or
 $ git add *
@@ -46,4 +46,13 @@ or
 $ git add -A
 
    - add all the changes to the local repository
+
+$ git status - shows the changes to commit in green
+
+$ git commit -m "added random and canvas-breakout-game"
+
+$ git status - everything is white, could "push" 
+$ git log - see all the commits
+
+$ git push
 
