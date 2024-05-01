@@ -5,6 +5,7 @@ figure {
     margin: 1rem;
     padding: 0.2rem 1.2rem 1.2rem;
     text-align: center;
+    vertical-align: top;
 }
 
 figure > h3 {
