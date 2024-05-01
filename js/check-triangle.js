@@ -58,5 +58,11 @@ function checkTotal() {
  *    to run after checkNum() 
  */
 
+    if (!a || !b || !c) {
+        totalValidationSpan.innerText = 'NOT VALID'
+    } else {
+        
+        totalValidationSpan.innerText = 'VALID'
+    }
 
 }
