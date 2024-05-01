@@ -32,3 +32,18 @@ $ git pull - gets the updated code
 ($ git fetch - shows if github version is different from you version      )
 
 $ git log - shows all the commits
+
+_____________________________________-
+
+upload changes from my local directory to my github
+remote directory
+
+$ git status - check that there were some changes
+$ git add .
+or
+$ git add *
+or
+$ git add -A
+
+   - add all the changes to the local repository
+
