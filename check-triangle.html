@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>Check Triangle</h1>
-    <input type="text" id="a" placeholder="0">
+    <input type="text" id="a" placeholder="0" 
+           oninput="checkNum();">
+
     <input type="text" id="b" placeholder="0">
     <input type="text" id="c" placeholder="0">
 
@@ -17,8 +19,8 @@
         <br>
         The total input is
         <span id="total-validation">not valid</span>
-        This triangle is <span id="result">...</span>
         <br>
+        This triangle is <span id="result">...</span>
     </h3>
 
     
